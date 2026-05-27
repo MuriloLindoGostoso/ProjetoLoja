@@ -1,10 +1,10 @@
 /* Definindo as variaveis globais */
 :root{
     --color-primary:blue;
-    --bg-dark-: #141414;
+    --bg-dark-: #000000;
     --bg-card-: #555;
-    --text-color: #fff;
-    --bg-rgba: rgba(0,0,0,0.8);
+    --text-color: #c2bcbc;
+    --bg-rgba: rgba(80, 29, 29, 0.8);
     --btn-color: #dd5656;
 }
 /* Reset básico */
@@ -71,4 +71,7 @@ nav ul li a:hover{
     border: 5px solid;
     border-color: rgb(248, 16, 16);
  }
-
+.card-game img{
+    width: 100%;
+    height: auto;
+ }
